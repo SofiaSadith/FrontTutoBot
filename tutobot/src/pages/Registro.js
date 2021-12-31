@@ -177,9 +177,9 @@ function Registro(props) {
                         <input
                             type="text"
                             required id="correo"
-                            placeholder="Correo"
+                            placeholder="Correo Institucional"
                         />
-                        {/* <label className="label"> 
+                        {/* <label className="label">
                         <span className="nombre_campo">Correo </span>
                     </label> */}
 

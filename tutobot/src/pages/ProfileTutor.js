@@ -1,13 +1,18 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { StyledEngineProvider } from '@mui/material/styles';
+import Estrella from '../components/Estrella';
 import {
 	faUser,
 	faBook,
 	faHome,
 	faHeart,
 	faDoorClosed,
+	faEdit,
 } from "@fortawesome/free-solid-svg-icons";
+import EventAvailableIcon from "@mui/icons-material/EventAvailable";
+import EditIcon from "@mui/icons-material/Edit";
 import "./ProfileTutor.css";
 import "../App.css";
 import Chart from "chart.js/auto";
@@ -25,8 +30,28 @@ function ProfileTutor() {
 	return (
 		<div className="perfil">
 			{/* <h1> ProfilePage: {username}</h1> */}
+			<div id= 'datos'>
+				<div id='total'>
+					<h1 className="totalE"> Total de Estudiantes</h1>
+					<h2 className="datoE">200</h2>
+				</div>
+				<div id= 'estrellasT'>
+					<h1 className="totalE">Calificación</h1>
+
+					<StyledEngineProvider injectFirst>
+    					<Estrella/>
+  					</StyledEngineProvider>,
+
+
+				</div>
+				<div id= 'sesionesT'>
+				<h1 className="totalE">Sesiones de la Semana</h1>
+				<h2 className="datoE">12</h2>
+				</div>
+			</div>
+			
 			<div id="contenedor">
-				<div id="info">
+				<div id="info1">
 					<div className="icono">
 						<FontAwesomeIcon icon={faUser} />
 					</div>
@@ -36,7 +61,7 @@ function ProfileTutor() {
 					</div>
 					<div className="text-center perrito">
 						<button className="btn btn-primary">Guardar</button>
-                        <button className="btn btn-primaryD">Editar</button>
+                        <button className="btn btn-primaryD"><FontAwesomeIcon icon={faEdit} /></button>
 					</div>
                     
 				</div>
@@ -48,18 +73,26 @@ function ProfileTutor() {
 					<div className="campo">
 						<label for="titleText">Celular:</label>
 						<input type='tel' className="form-control" id="titleText" placeholder="Tu teléfono" />
+						<button type="button" className="btn btn-aTutor" style={{color:"#fff"}}>
+						<FontAwesomeIcon icon={faEdit} />
+						</button>
 					</div>
 					<div className="campo">
 						<label for="titleText">Email:</label>
 						<input type='email' className="form-control" id="titleText" placeholder="Tu e-mail" />
+						<button type="button" className="btn btn-aTutor" style={{color:"#fff"}}>
+						<FontAwesomeIcon icon={faEdit} />
+						</button>
 					</div>
                     <div className="campo">
 						<label for="titleText">Zoom:</label>
 						<input className="form-control" id="titleText" placeholder="Tu enlace de Zoom" />
+						<button type="button" className="btn btn-aTutor" style={{color:"#fff"}}>
+						<FontAwesomeIcon icon={faEdit} />
+						</button>
 					</div>
 					<div className="text-center perrito">
 						<button className="btn btn-primary">Guardar</button>
-                        <button className="btn btn-primaryD">Editar</button>
 					</div>
                    
 
@@ -72,7 +105,7 @@ function ProfileTutor() {
 
 			</div>
 			<div id='conten-estadisticas'>
-				<div class='estadistica'>
+				<div class='estadisticas'>
 						<h1 className="titulo">ESTADÍSTICAS</h1>
 					<div className='barNotas'>
 						Promedio de notas de asesorados por ciclo
@@ -126,6 +159,7 @@ function ProfileTutor() {
 					<h3>Reuniones: </h3>
 				</div> 
 			</div>*/}
+			
 		</div>
 	);
 }

@@ -13,7 +13,7 @@ import { useState, useEffect } from 'react';
 //var userCurrent = localStorage.getItem("user") == "" ? "" : JSON.parse(localStorage.getItem("user"));
 
 export const kind = 'tutor';
-//sexport const kind = 'alumno';
+//export const kind = 'alumno';
 
 function Navbar(props) {
 

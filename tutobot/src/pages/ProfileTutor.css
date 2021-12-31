@@ -6,11 +6,66 @@
     --title: #1CC272;
   }
 
-.icono{
+#datos{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+    margin-left: 14rem;
+    
+    
+}
+#total{
+    width: 28rem;
+    height: 8rem;
+    background: #222222;
+    box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.005),
+    5px 5px 15px rgba(60, 60, 60, 0.1);
+    margin-right: 2rem;
+    border-radius: 1rem;
+    
+}
+
+#estrellasT{
+    width: 28rem;
+    height: 8rem;
+    background: #222222;
+    box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.005),
+    5px 5px 15px rgba(60, 60, 60, 0.1);
+    margin-right: 2rem;
+    border-radius: 1rem;
+}
+
+#sesionesT{
+    width: 28rem;
+    height: 8rem;
+    background: #222222;
+    box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.005),
+    5px 5px 15px rgba(60, 60, 60, 0.1);
+    border-radius: 1rem;
+}
+
+.totalE{
+    margin: 1rem 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.datoE{
+   
+    font-size: 1.5rem;
+    text-align: center;
+}
+  .icono{
     transform: scale(1.2);
     /* border: 4px solid var(--main-bg-color); */
     border-radius: 50%;
     text-align: center;
+    
+}
+
+.injectfirst{
+    margin-left: 3rem;
 }
 
 #contenedor{
@@ -44,37 +99,49 @@
     font-size: 16px;
 }
 
-.datosPersonales{
+#infogeneral{
     margin-top: 1.2rem;
     width: 25rem;
-    height: 19rem;
+    height: 24rem;
     margin-left: 2rem;
     background-color: white;
     box-shadow: 0px 8px 4px rgba(0, 0, 0, 0.25);
     padding: 30px 20px 20px 40px;
     border-radius: 20px;
-    z-index: -10;
+    /*z-index: -10;*/
 }
 
-.datosPersonales h1{
+#infogeneral h1{
     text-align: center;
     font-size: 25px;
     margin-bottom: 1.6rem;
 }
 
-.datosPersonales h2{
+
+#infogeneral h3{
     font-size: 18px;
     margin-top: 0.9rem;
+    padding-left: 1rem;
+}
+
+.fas.fa-edit{
+    height: 10rem;
+}
+
+.btn.btn-aTutor{
+    height: 2rem;
 }
 
 .estadisticas{
-    margin-left: -2.3rem;
+   
+    margin-left: 10rem;
     width: auto;
     height: 30rem;
     padding: 25px 30px 30px 50px;
     border-radius: 20px; 
     margin-bottom: 5rem;
     display: flex;
+    
 }
 
 .estadisticas h1{
@@ -94,7 +161,7 @@
 #info1 h1{
     font-size: 1.8rem;
     font-weight: 600;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 #info1 h3{
     margin-bottom: 1rem;
@@ -104,16 +171,17 @@
     text-align: justify;
 }
 .barNotas{
+    
     background: white;
     box-shadow: 0px 8px 4px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
     width: 35rem;
+    height: 23rem;
     padding: 2rem;
     margin-top: 6rem;
     font-family: 'Montserrat', sans-serif;
     font-size: 1.5rem;
     margin-left:-13rem;
-
 }
 
 .pieAprobado{
@@ -121,12 +189,13 @@
     box-shadow: 0px 8px 4px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
     width: 20rem;
+    height: 23rem;
     padding: 2rem;
     margin-top: 6rem;
     font-family: 'Montserrat', sans-serif;
     font-size: 1.1rem;
     margin-left: 4rem;
-
+    
 }
 
 .campo label{
@@ -215,3 +284,4 @@
 .btn.btnG{
     margin-top: 1rem;
 }
+

@@ -19,6 +19,7 @@ import Chatbot from '../components/Chatbot';
 import EditarTuto from '../pages/EditarTuto';
 import VerTuto from '../pages/VerTuto';
 import Tutorial from '../pages/Tutorial';
+import MisAlumnos from '../pages/MisAlumnos';
 
 import quizData from '../data/quiz.json';
 import tutoData from '../data/tuto.json';
@@ -99,7 +100,8 @@ const AppRouter = () => {
                         <Route path='/resultados' component={Resultados} />
                         <Route path='/tutoscreados' component={TutosCreados} />
                         <Route path='/creartutos' component={CrearTutos} />
-                        <Route path='/misSesiones' component={MisSesionesAlumno}/>  
+                        <Route path='/misSesiones' component={MisSesionesAlumno}/> 
+                        <Route path='/misalumnos' component={MisAlumnos}/>
                         <Route path='/editartuto/:tuto'>
                             <EditarTuto
                                 data={tutoData.data[0]}

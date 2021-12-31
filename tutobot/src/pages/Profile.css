@@ -187,9 +187,7 @@
     box-shadow:  inset 10px 10px 15px -10px #c3c3c3,
     inset -10px -10px 15px -10px #ffffff;
     border: none !important;
-    
-    
-    
+ 
 }
 
 .perrito{
@@ -255,11 +253,6 @@ span{
     margin-left: 2rem;
     color: #ff7a00;
     transform: scale(1);
-}
-.btn.btn-a{
-    margin-top: 0rem;
-    height: 2rem;
-    
 }
 
 
