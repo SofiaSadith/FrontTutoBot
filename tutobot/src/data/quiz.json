@@ -1,0 +1,49 @@
+{
+    "data": [
+        {
+            "question": "Es aquella integral cuya función es evaluada sobre una curva:",
+            "choices": ["Integral en recta", "Integral bajo la curva", "Integral de línea", "Integral doble"],
+            "answer": "Integral bajo la curva"
+          },
+          {
+            "question": "Indique la función que no es derivable:",
+            "choices": ["f(x)=3x^3", "f(x)=|x^2-4|", "f(x)=ax^2+bx+c, a,b,c!=0"],
+            "answer": "f(x)=|x^2-4|"
+          },
+          {
+            "question": "Si una función es continua entonces es derivable.",
+            "choices": ["V", "F"],
+            "answer": "V"
+          },
+          {
+            "question": "Indique la función que no es derivable:",
+            "choices": ["f(x)=3x^3", "f(x)=|x^2-4|", "f(x)=ax^2+bx+c, a,b,c!=0"],
+            "answer": "f(x)=|x^2-4|"
+          },
+          {
+            "question": "Si el límite de una función en un punto dado no existe entonces tampoco existe su derivada por tanto se dice que la función no es derivable en dicho punto",
+            "choices": ["V", "F"],
+            "answer": "V"
+          },
+          {
+            "question": "Si f(x) = g(u) y u = u(x) entonces:",
+            "choices": ["f'(x) = g'(u)", "f'(x) = g'(u)", "f'(x) = g'(u)"],
+            "answer": "f'(x) = g'(u)"
+          },
+          {
+            "question": "Es una secuencia ordenada de nucleótidos  en la molécula de ADN  y que contiene la información necesaria para la síntesis de proteínas.",
+            "choices": ["Código genético", "Gen", "Alelo dominante", "Fenotipo"],
+            "answer": "Gen"
+          },
+          {
+            "question": "El conjunto de cromosomas  humanos ordenados de acuerdo a su forma y tamaño, toma el nombre de:",
+            "choices": ["Fenotipo", "Cariotipo", "Alelos", "N.A"],
+            "answer": "N.A"
+          },
+          {
+            "question": "¿Que mecanismo de transporte utiliza la glucosa para poder entrar a la célula?",
+            "choices": ["Osmosis", "Difusión simple", "Fagocitosis", "Difusión facilitada"],
+            "answer": "Difusión facilitada"
+          }
+    ]
+}

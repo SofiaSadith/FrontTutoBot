@@ -1,0 +1,308 @@
+{
+    "data": [
+        {
+            "titulo": "Cálculo de determinantes",
+            "descripcion": "En este tutorial, aprenderás a usar las diversas técnicas que se emplean para el cálculo de determinantes",
+            "paso1":
+               {
+                   "nombre": "Pensar",
+                   "archivo": "",
+                   "pregunta1": 
+                        {
+                            "enunciado" : "Es aquella integral cuya función es evaluada sobre una curva:",
+                            "opciones" : ["Integral en recta", "Integral bajo la curva", "Integral de línea", "Integral doble"],
+                            "respuesta" : "Integral bajo la curva"
+                        },
+                    "pregunta2": 
+                        {
+                            "enunciado" : "Indique la función que no es derivable:",
+                            "opciones" : ["f(x)=3x^3", "f(x)=|x^2-4|", "f(x)=ax^2+bx+c, a,b,c!=0"],
+                            "respuesta" : "f(x)=|x^2-4|"
+                        },
+                    "pregunta3": 
+                        {
+                            "enunciado": "¿Que mecanismo de transporte utiliza la glucosa para poder entrar a la célula?",
+                            "opciones": ["Osmosis", "Difusión facilitada", "Fagocitosis"],
+                            "respuesta": "Difusión facilitada"
+                        }
+                },
+            "paso2":
+                {
+                    "nombre": "Meditar",
+                    "archivo": "",
+                    "pregunta1":
+                        {
+                            "enunciado": "A",
+                            "opciones": ["Integral en recta", "Integral bajo la curva", "Integral de línea", "Integral doble"],
+                            "respuesta": ""
+                        },
+                    "pregunta2":
+                        {
+                            "enunciado": "B",
+                            "opciones": ["Integral en recta", "Integral bajo la curva", "Integral de línea", "Integral doble"],
+                            "respuesta": ""
+                        },
+                    "pregunta3":
+                        {
+                            "enunciado": "¿Que mecanismo de transporte utiliza la glucosa para poder entrar a la célula?",
+                            "opciones": ["Osmosis", "Difusión simple", "Fagocitosis", "Difusión facilitada"],
+                            "respuesta": "Difusión facilitada"
+                        }
+                },
+            "paso3":
+                {
+                     "nombre": "Analizar",
+                     "archivo": "",
+                     "pregunta1":
+                         {
+                             "enunciado": "",
+                             "opciones": "",
+                             "respuesta": ""
+                         },
+                     "pregunta2":
+                         {
+                             "enunciado": "",
+                             "opciones": "",
+                             "respuesta": ""
+                         },
+                     "pregunta3":
+                         {
+                             "enunciado": "¿Que mecanismo de transporte utiliza la glucosa para poder entrar a la célula?",
+                             "opciones": ["Osmosis", "Difusión simple", "Fagocitosis", "Difusión facilitada"],
+                             "respuesta": "Difusión facilitada"
+                         }
+                },
+            "paso4":
+                {
+                     "nombre": "Llorar",
+                     "archivo": "",
+                     "pregunta1":
+                         {
+                             "enunciado": "",
+                             "opciones": "",
+                             "respuesta": ""
+                         },
+                     "pregunta2":
+                         {
+                             "enunciado": "",
+                             "opciones": "",
+                             "respuesta": ""
+                         },
+                     "pregunta3":
+                         {
+                             "enunciado": "¿Que mecanismo de transporte utiliza la glucosa para poder entrar a la célula?",
+                             "opciones": ["Osmosis", "Difusión simple", "Fagocitosis", "Difusión facilitada"],
+                             "respuesta": "Difusión facilitada"
+                         }
+                },
+            "paso5":
+                {
+                     "nombre": "Sacar nuestras conclusiones",
+                     "archivo": "",
+                     "pregunta1":
+                         {
+                             "enunciado": "",
+                             "opciones": "",
+                             "respuesta": ""
+                         },
+                     "pregunta2":
+                         {
+                             "enunciado": "",
+                             "opciones": "",
+                             "respuesta": ""
+                         },
+                     "pregunta3":
+                         {
+                             "enunciado": "¿Que mecanismo de transporte utiliza la glucosa para poder entrar a la célula?",
+                             "opciones": ["Osmosis", "Difusión simple", "Fagocitosis", "Difusión facilitada"],
+                             "respuesta": "Difusión facilitada"
+                         }
+                },
+            "examen":
+                {
+                    "pregunta1":
+                        {
+                            "enunciado": "",
+                            "opciones": "",
+                            "respuesta": ""
+                        },
+                    "pregunta2":
+                        {
+                            "enunciado": "",
+                            "opciones": "",
+                            "respuesta": ""
+                        },
+                    "pregunta3":
+                        {
+                            "enunciado": "¿Que mecanismo de transporte utiliza la glucosa para poder entrar a la célula?",
+                            "opciones": ["Osmosis", "Difusión simple", "Fagocitosis", "Difusión facilitada"],
+                            "respuesta": "Difusión facilitada"
+                        },
+                    "pregunta4":
+                        {
+                            "enunciado": "",
+                            "opciones": "",
+                            "respuesta": ""
+                        },
+                    "pregunta5":
+                        {
+                            "enunciado": "¿Que mecanismo de transporte utiliza la glucosa para poder entrar a la célula?",
+                            "opciones": ["Osmosis", "Difusión simple", "Fagocitosis", "Difusión facilitada"],
+                            "respuesta": "Difusión facilitada"
+                        }
+                }
+        },
+        {
+            "titulo": "Cálculo de límites",
+            "descripcion": "En este tutorial, aprenderás a usar las diversas técnicas que se emplean para el cálculo de límites",
+            "paso1":
+               {
+                   "nombre": "Observar el problema",
+                   "archivo": "",
+                   "pregunta1": 
+                        {
+                            "enunciado" : "Es aquella integral cuya función es evaluada sobre una curva:",
+                            "opciones" : ["Integral en recta", "Integral bajo la curva", "Integral de línea", "Integral doble"],
+                            "respuesta" : "Integral bajo la curva"
+                        },
+                    "pregunta2": 
+                        {
+                            "enunciado" : "Indique la función que no es derivable:",
+                            "opciones" : ["f(x)=3x^3", "f(x)=|x^2-4|", "f(x)=ax^2+bx+c, a,b,c!=0"],
+                            "respuesta" : "f(x)=|x^2-4|"
+                        },
+                    "pregunta3": 
+                        {
+                            "enunciado" : "Indique la función que no es derivable:",
+                            "opciones" : ["f(x)=3x^3", "f(x)=|x^2-4|", "f(x)=ax^2+bx+c, a,b,c!=0"],
+                            "respuesta" : "f(x)=|x^2-4|"
+                        }
+                },
+            "paso2":
+                {
+                    "nombre": "Imaginar las posibles vías de solución",
+                    "archivo": "",
+                    "pregunta1":
+                        {
+                            "enunciado": "Si f(x) = g(u) y u = u(x) entonces:",
+                            "opciones": ["f'(x) = g'(u)", "f'(x) = g'(u)", "f'(x) = g'(u)"],
+                            "respuesta": "f'(x) = g'(u)"
+                        },
+                    "pregunta2":
+                        {
+                            "enunciado": "",
+                            "opciones": "",
+                            "respuesta": ""
+                        },
+                    "pregunta3":
+                        {
+                            "enunciado": "¿Que mecanismo de transporte utiliza la glucosa para poder entrar a la célula?",
+                            "opciones": ["Osmosis", "Difusión simple", "Fagocitosis", "Difusión facilitada"],
+                            "respuesta": "Difusión facilitada"
+                        }
+                },
+            "paso3":
+                {
+                     "nombre": "Poner a prueba las estrategias pensadas",
+                     "archivo": "",
+                     "pregunta1":
+                         {
+                             "enunciado": "",
+                             "opciones": "",
+                             "respuesta": ""
+                         },
+                     "pregunta2":
+                         {
+                             "enunciado": "",
+                             "opciones": "",
+                             "respuesta": ""
+                         },
+                     "pregunta3":
+                         {
+                             "enunciado": "¿Que mecanismo de transporte utiliza la glucosa para poder entrar a la célula?",
+                             "opciones": ["Osmosis", "Difusión simple", "Fagocitosis", "Difusión facilitada"],
+                             "respuesta": "Difusión facilitada"
+                         }
+                },
+            "paso4":
+                {
+                     "nombre": "Sacar nuestra hipótesis",
+                     "archivo": "",
+                     "pregunta1":
+                         {
+                             "enunciado": "",
+                             "opciones": "",
+                             "respuesta": ""
+                         },
+                     "pregunta2":
+                         {
+                             "enunciado": "",
+                             "opciones": "",
+                             "respuesta": ""
+                         },
+                     "pregunta3":
+                         {
+                             "enunciado": "¿Que mecanismo de transporte utiliza la glucosa para poder entrar a la célula?",
+                             "opciones": ["Osmosis", "Difusión simple", "Fagocitosis", "Difusión facilitada"],
+                             "respuesta": "Difusión facilitada"
+                         }
+                },
+            "paso5":
+                {
+                     "nombre": "Sacar nuestras conclusiones",
+                     "archivo": "",
+                     "pregunta1":
+                         {
+                             "enunciado": "",
+                             "opciones": "",
+                             "respuesta": ""
+                         },
+                     "pregunta2":
+                         {
+                             "enunciado": "",
+                             "opciones": "",
+                             "respuesta": ""
+                         },
+                     "pregunta3":
+                         {
+                             "enunciado": "¿Que mecanismo de transporte utiliza la glucosa para poder entrar a la célula?",
+                             "opciones": ["Osmosis", "Difusión simple", "Fagocitosis", "Difusión facilitada"],
+                             "respuesta": "Difusión facilitada"
+                         }
+                },
+            "examen":
+                {
+                    "pregunta1":
+                        {
+                            "enunciado" : "Indique la función que no es derivable:",
+                            "opciones" : ["f(x)=3x^3", "f(x)=|x^2-4|", "f(x)=ax^2+bx+c, a,b,c!=0"],
+                            "respuesta" : "f(x)=|x^2-4|"
+                        },
+                    "pregunta2":
+                        {
+                            "enunciado": "",
+                            "opciones": "",
+                            "respuesta": ""
+                        },
+                    "pregunta3":
+                        {
+                            "enunciado": "¿Que mecanismo de transporte utiliza la glucosa para poder entrar a la célula?",
+                            "opciones": ["Osmosis", "Difusión facilitada", "Fagocitosis", "Difusión facilitada"],
+                            "respuesta": "Difusión facilitada"
+                        },
+                    "pregunta4":
+                        {
+                            "enunciado": "",
+                            "opciones": "",
+                            "respuesta": ""
+                        },
+                    "pregunta5":
+                        {
+                            "enunciado": "¿Que mecanismo de transporte utiliza la glucosa para poder entrar a la célula?",
+                            "opciones": ["Osmosis", "Difusión simple", "Fagocitosis", "Difusión facilitada"],
+                            "respuesta": "Difusión facilitada"
+                        }
+                }
+        }
+    ]
+}

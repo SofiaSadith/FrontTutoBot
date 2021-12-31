@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    padding-left: 0;
+}
+
+body{
+    background-color: #E2F5F5;
+}
+.App {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+
+}
+
+.app_body{
+    height: 90vh;
+    width: 90rem;
+    background: #f2f2f2;
+    backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(8px);
+    -webkit-box-shadow: 0px 14px 19px 3px rgba(0,0,0,0.65); 
+    sbox-shadow: 0px 14px 19px 3px rgba(0,0,0,0.65);
+    display: flex;
+    flex-direction: column;
+
+}
+.home, .question, .nfp{
+    display:flex;
+    height: 90vh;
+    align-items: center;
+    font-size: 3rem;
+    margin-left: 16rem;
+}
+
+.perfil{
+    display:flex;
+    flex-direction: column;
+    padding: 8rem;
+    padding-top:1.2rem;
+    margin-top: auto;
+    height: 78vh;
+    align-items: right;
+    font-size: 3rem;
+    margin-left: 2rem;
+    overflow: auto;
+    margin-bottom: 2rem;
+}
+
+.card{
+    font-size: 15px;
+    color: #222;
+}
+
+.card {
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    margin: 0 6px;
+    border-style: none;
+    background: #f2f3f7;
+    box-shadow:   -9px -9px 16px #ffffff,
+    9px 9px 16px  rgba(0, 0, 0, .25);
+}
+
+.principal{
+    height: 78vh;
+    overflow: auto;
+    
+}
+.tutos{
+    
+    margin: 2rem 0rem auto 19rem;
+    height: 80%;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    column-gap: -3rem;
+    padding-bottom: 5rem;
+    padding-top: 1rem;
+    
+
+}
+.misTutos{
+    margin: 2rem 0rem auto 19rem;
+    height: 92%;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    column-gap: -3rem;
+  
+    padding-top: 1rem;
+    
+
+}
+
+
+/*@media (min-width: 768px) {
+    .tutos .misTutos{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr); 
+      column-gap: 4rem;
+    }
+}*/
+.cardTuto{
+    display: flex;
+    margin-right: 1rem;
+    width: 20rem;
+    margin-bottom: 3rem;
+
+
+}
+
+.cardTuto .card{
+    width: 100%;
+    height: 16rem;
+    border-radius: 7%;
+    color: black;
+    margin-bottom: 1rem;
+
+
+}
+
+/* .tutos{
+    position: absolute;
+    display: grid;
+    margin-left: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+} */

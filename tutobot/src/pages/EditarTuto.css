@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Istok+Web:wght@700&family=Roboto:wght@300&family=Sunflower:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100&family=Montserrat:wght@100&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100&family=Montserrat:wght@100&family=Roboto:wght@100&family=Space+Mono&display=swap');
+.editarTuto, .crearTutos, .resultados{
+    margin: 1.5rem 5rem 2rem 21rem;
+    font-family: 'Sunflower', sans-serif; 
+}
+
+.editarTuto h1, .resultados h1{
+    color: #fff;
+    font-size: 29px;
+    margin-top: 15px;    
+}
+
+#titulo{
+    font-size: 35px;
+    line-height: normal;
+}
+
+.resultados h2{
+    font-size: 20px;
+    color: #fff;
+    font-family: 'Montserrat Hairline', arial;
+    font-weight: 600;
+}
+#descripcionTextTutorial{
+    
+    font-family: 'Space Mono', monospace;
+    color: #727272;
+
+}
+#descripcion p{
+    border-radius: 5px;
+    font-family: 'Montserrat Hairline', arial;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.card h1{
+    color: #000;
+    font-size: 16px;
+    margin-top: 0;
+}
+.card h2{
+    font-size: 16px;
+}
+
+#name-input{
+    border: none;
+    border-bottom: 1px solid #000;
+    border-radius: 5px 5px 0 0;
+}
+
+#card-flex{
+    width: 100%;
+    max-width: none;
+}
+
+#card-flex-body{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#adjuntar{
+    margin: 15px 0 0 5px;
+    width: 100%;
+}
+
+#card-flex-body input{
+    width: 18rem;
+}
+#card-flex-body p{
+    font-size: 12px;
+    margin-bottom: 0;
+}
+
+#practica-container{
+    display: flex;
+    flex-direction: row;
+}
+
+#practica-container .card-body{
+    display: flex;
+    flex-direction: column;
+}
+
+.opciones{
+    display: flex;
+    flex-direction: column;
+}
+
+.opciones div{
+    display: inline-block;
+    margin-left: 1rem;
+}
+
+#practica label{
+    margin: 10px 0 5px 0;
+    font-size: 16px;
+}
+
+textarea{
+    padding: 5px;
+    width: 100%;
+    height: 8rem;
+    resize: none;
+    overflow-y: scroll;
+}
+
+.form-group label, .form-group h1{
+    color: #222;
+    margin-top: 2rem;
+}
+
+.mb-3{
+    font-size: 30px;
+    font-weight: 400;
+}

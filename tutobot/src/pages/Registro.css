@@ -1,0 +1,199 @@
+/*.fondo{
+    background: url(../media/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    -webkit-filter: blur(1px);
+    -moz-filter: blur(1px);
+    -o-filter: blur(1px);
+    -ms-filter: blur(1px);
+    filter: blur(1px);
+    z-index: -1;
+}*/
+
+.registro {
+    /*align-items: center;*/
+    position: fixed;
+    top: 15%;
+    left: 50%;
+    width: 30%;
+    height: 500px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+.switch-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0px;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 26px;
+  margin: 10px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: 0.4s;
+}
+
+.slider:before{
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  left: 3px;
+  bottom: 3px;
+  background-color: rgb(18, 34, 173);
+  transition: 0.4s;
+}
+
+.tutor.slider:before {
+    transform: translateX(20px);
+    background-color: #18275F;
+  }
+
+.form {
+  display: grid;
+  margin: 0% 10%;
+}
+
+.form input {
+  background: #fff;
+  border-radius: 3px;
+  height: 40px;
+  line-height: 45px;
+  padding: 0 40px 0 10px;
+  transition: 0.3s ease all;
+  border: 3px solid gray;
+  border-radius: 7px;
+  margin: 10px 0px 0px 0px;
+}
+
+.form input:focus,
+.form input:valid {
+  border: 3px solid rgb(16, 168, 67);
+  outline: none;
+  transform: scaleY(1.05);
+}
+
+.form .label {
+  display: block;
+  padding: 1px 4px;
+  width: fit-content;
+  margin-top: -15px;
+  margin-left: 15px;
+  background: #fff;
+  visibility: hidden;
+}
+
+.nombre_campo {
+  font-weight: 600;
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.5);
+  background: #fff;
+}
+
+.form input:focus + .label {
+  visibility: visible;
+  transition: 0.5s;
+  transform: scale(1.05);
+}
+.form input:valid + .label {
+  visibility: visible;
+  transition: 0.5s;
+  transform: scale(1);
+}
+
+.btnRegistro {
+  background: rgb(16, 168, 67);
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  margin-top: 10px;
+  width: 60%;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.btnRegistro:hover {
+  background: rgb(18, 34, 173);
+  color: #fff;
+  transform: scale(1.1);
+}
+
+.estudiante {
+  width: 700px;
+  margin-left: 50%;
+  margin-top: 15%;
+}
+
+.iniciarSesion{
+    position: fixed;
+    top: 15%;
+    left: 20%;
+    width: 30%;
+    height: 500px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+.cambio{
+    position: fixed;
+    background: rgb(255, 255, 255, 0.5);
+    top: 35%;
+    left: 20%;
+    padding: 30px 50px;
+    padding-left: 35%;
+    width: 60%;
+    z-index: -1;
+}
+
+.izq.cambio{
+    padding: 30px 50px;
+    padding-right: 35%;
+}
+
+.btnCambiar{
+    border-color: #000;
+    background: white;
+    width: fit-content;
+    padding: 5px 15px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-family: "Montserrat";
+    transition: 0.4s;
+}
+
+.btnCambiar:hover{
+    background-color: #000;
+    color: #fff;
+}

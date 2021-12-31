@@ -1,0 +1,31 @@
+.bt{
+    background-color:darkcyan;
+    height: 40px;
+	margin: 0;
+}
+.bt:hover{
+    cursor: pointer;
+    background: #293846;
+}
+
+.progress {
+	background-color: #d8d8d8;
+	border-radius: 20px;
+	position: relative;
+	margin: 15px 1px;
+	height: 30px;
+	width: 280px;
+}
+
+.progress-done {
+	background: linear-gradient(to left, #3a3a7e, #17152b);
+	border-radius: 20px;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	width: 0;
+	opacity: 0;
+	transition: 1s ease 0.3s;
+}

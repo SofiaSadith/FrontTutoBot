@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Istok+Web:wght@700&family=Roboto:wght@300&family=Sunflower:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Roboto:wght@100&display=swap');
+:root{
+    --main-bg-color: #262727;
+    --title: #1CC272;
+  }
+
+.icono{
+    transform: scale(1.2);
+    /* border: 4px solid var(--main-bg-color); */
+    border-radius: 50%;
+    text-align: center;
+}
+
+#contenedor{
+    display: flex;
+    flex-direction: row;
+}
+
+/* #conten-estadisticas{
+    align-items: center;
+} */
+
+#info1{
+
+    width: 28rem;
+    height: 24rem;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0px 8px 4px rgba(0, 0, 0, 0.25);
+    padding: 30px 20px 20px 40px;
+    border-radius: 20px;
+    margin-left: 2rem;
+    margin-right:3rem;
+    margin-bottom: 7rem;
+    margin-top: 1.4rem;
+}
+
+#info1 h2{
+    font-size: 20px;
+}
+#info1 p{
+    font-size: 16px;
+}
+
+.datosPersonales{
+    margin-top: 1.2rem;
+    width: 25rem;
+    height: 19rem;
+    margin-left: 2rem;
+    background-color: white;
+    box-shadow: 0px 8px 4px rgba(0, 0, 0, 0.25);
+    padding: 30px 20px 20px 40px;
+    border-radius: 20px;
+    z-index: -10;
+}
+
+.datosPersonales h1{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 1.6rem;
+}
+
+.datosPersonales h2{
+    font-size: 18px;
+    margin-top: 0.9rem;
+}
+
+.estadisticas{
+    margin-left: -2.3rem;
+    width: auto;
+    height: 30rem;
+    padding: 25px 30px 30px 50px;
+    border-radius: 20px; 
+    margin-bottom: 5rem;
+    display: flex;
+}
+
+.estadisticas h1{
+
+    text-align: justify;
+    font-size: 30px;
+    margin:  0 0  30px 0;
+    color: white;
+    font-weight: bold;
+    
+}
+
+.estadisticas h2{
+    font-size: 20px;
+    margin: 10px 0;
+}
+#info1 h1{
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+#info1 h3{
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    font-size: 1.1rem;
+    font-weight: 400;
+    text-align: justify;
+}
+.barNotas{
+    background: white;
+    box-shadow: 0px 8px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    width: 35rem;
+    padding: 2rem;
+    margin-top: 6rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    margin-left:-13rem;
+
+}
+
+.pieAprobado{
+    background: white;
+    box-shadow: 0px 8px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    width: 20rem;
+    padding: 2rem;
+    margin-top: 6rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+    margin-left: 4rem;
+
+}
+
+.campo label{
+    font-weight: 600;
+    margin-top:0.2rem;
+    margin-left: 1rem;
+    font-size: 1.1rem;
+    display: flex;
+    color: black;
+}
+
+#descripcionText{
+    width: 100%;
+    height: 8rem;
+    margin-left: -0.4rem;
+    padding: 1.5rem;
+    border-radius: .5rem;
+    overflow: hidden;
+    margin-bottom: 1.8rem;
+    text-align: justify;
+}
+
+#titleText{
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    width:60%;
+    height: 1.7rem;
+
+}
+
+.tabla{
+    margin-top:5rem;
+    margin-left: -5rem;
+    margin-right: 5rem;
+    font-size: 1rem;
+    background-color:white;
+}
+.but{
+    margin-top:-5rem;
+}
+.container {
+    padding: 5rem 0rem;
+    font-size: 1rem;
+}
+.container h1{
+
+    text-align: justify;
+    font-size: 30px;
+    margin:  0 0  30px 0;
+    color: white;
+    font-weight: bold;
+    margin-left:-2rem;
+}
+.table-bordered{
+    margin-top:2rem;
+    margin-left: 2rem;
+    margin-right: 5rem;
+    background-color:white;
+    text-align: center;
+}
+.btnGroup{
+    background-color: rgb(52, 52, 199);
+    width: 4.5rem;
+    height: 1.8rem;
+    margin-left:1rem;
+    border-radius: 0.2rem;
+}
+.btnEstado{
+    border-radius: 5rem;
+    margin-left: 0.3rem;
+    margin-right: 0.2rem;
+    margin-top:0.1rem;
+    padding: 0rem 0.2rem 0rem 0.2rem;
+    border:none;
+    background-color: rgb(201, 199, 199);
+}
+.btnCheck:focus{
+    background-color:rgb(7, 187, 7);
+}
+.btnX:focus{
+    background-color:rgb(197, 39, 39);
+}
+.btn.btnDes{
+    margin-left:-0.05rem;
+}
+.btn.btnG{
+    margin-top: 1rem;
+}
