@@ -11,6 +11,7 @@ import Registro from '../pages/Registro';
 import Start from '../components/Start';
 import Question from '../components/Question';
 import MisSesionesAlumno from '../pages/MisSesionesAlumno';
+import MisSesionesTutor from '../pages/MisSesionesTutor';
 import { useState, useEffect } from 'react';
 import TutosCreados from '../pages/TutosCreados';
 import CrearTutos from '../pages/CrearTutos';
@@ -101,6 +102,7 @@ const AppRouter = () => {
                         <Route path='/tutoscreados' component={TutosCreados} />
                         <Route path='/creartutos' component={CrearTutos} />
                         <Route path='/misSesiones' component={MisSesionesAlumno}/> 
+                        <Route path='/misSesionesTutor' component={MisSesionesTutor}/>
                         <Route path='/misalumnos' component={MisAlumnos}/>
                         <Route path='/editartuto/:tuto'>
                             <EditarTuto
