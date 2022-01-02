@@ -20,6 +20,7 @@ function VerTuto({data}) {
 	}
 
     return (
+		<div className='principal'>
         <div className="editarTuto">
             <h1 id="titulo" className="text-center">{TutoData.titulo}</h1>
 			<div id="descripcion">
@@ -28,10 +29,10 @@ function VerTuto({data}) {
                     {TutoData.descripcion}
 				</p>
 			</div>
-			<div id="contenedor">
+			<div id="contenedorVer">
 
-				<div className="card">
-					<div className="card-body">
+				<div className="cardVer">
+					<div className="card-bodyVer">
 						<h1>Paso 1</h1>
 						<h2 id="paso1">
 							{TutoData.paso1.nombre}
@@ -39,8 +40,8 @@ function VerTuto({data}) {
 					</div>
 				</div>
 
-				<div className="card">
-					<div className="card-body">
+				<div className="cardVer">
+					<div className="card-bodyVer">
 						<h1>Paso 2</h1>
 						<h2>
 							{TutoData.paso2.nombre}
@@ -48,8 +49,8 @@ function VerTuto({data}) {
 					</div>
 				</div>
 
-				<div className="card">
-					<div className="card-body">
+				<div className="cardVer">
+					<div className="card-bodyVer">
 						<h1>Paso 3</h1>
 						<h2>
                             {TutoData.paso3.nombre}
@@ -57,8 +58,8 @@ function VerTuto({data}) {
 					</div>
 				</div>
 
-				<div className="card">
-					<div className="card-body">
+				<div className="cardVer">
+					<div className="card-bodyVer">
 						<h1>Paso 4</h1>
 						<h2>
                             {TutoData.paso4.nombre}
@@ -66,8 +67,8 @@ function VerTuto({data}) {
 					</div>
 				</div>
 
-				<div className="card">
-					<div className="card-body">
+				<div className="cardVer">
+					<div className="card-bodyVer">
 						<h1>Paso 5</h1>
 						<h2 id="paso5">
                             {TutoData.paso5.nombre}
@@ -75,8 +76,8 @@ function VerTuto({data}) {
 					</div>
 				</div>
 
-				<div className="card">
-					<div className="card-body">
+				<div className="cardVer">
+					<div className="card-bodyVer">
 						<h1>Examen Final</h1>
 						<h2>
 							{TutoData.titulo}
@@ -101,7 +102,7 @@ function VerTuto({data}) {
 				<h1>Preguntas de Práctica</h1>
 				<div id="practica-container">
 
-					<div className="card">
+					<div className="cardP">
 						<div className="card-body">
                             <h1>Pregunta 1</h1>
                             <textarea readonly="readonly">{TutoData["paso"+String(paso)].pregunta1.enunciado}</textarea>
@@ -121,7 +122,7 @@ function VerTuto({data}) {
 							</div>
 						</div>
 					</div>
-					<div className="card">
+					<div className="cardP">
 						<div className="card-body">
                             <h1>Pregunta 2</h1>
                             <textarea readonly="readonly">{TutoData["paso"+String(paso)].pregunta2.enunciado}</textarea>
@@ -141,7 +142,7 @@ function VerTuto({data}) {
 							</div>
 						</div>
 					</div>
-					<div className="card">
+					<div className="cardP">
 						<div className="card-body">
                             <h1>Pregunta 3</h1>
                             <textarea readonly="readonly">{TutoData["paso"+String(paso)].pregunta3.enunciado}</textarea>
@@ -176,6 +177,7 @@ function VerTuto({data}) {
 				}
 			</div>
         </div>
+		</div>
     )
 }
 

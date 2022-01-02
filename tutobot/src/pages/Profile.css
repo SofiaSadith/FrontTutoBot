@@ -255,6 +255,9 @@ span{
     transform: scale(1);
 }
 
+.btn.btn-a{
+    height: 2.3rem;
+}
 
 .campo{
     display: flex;
@@ -264,3 +267,4 @@ span{
 .material-icons-infom{
     color: white;
 }
+

@@ -6,6 +6,18 @@
     font-family: 'Sunflower', sans-serif; 
 }
 
+#contenedorVer{
+    margin: -1.5rem 1rem 1rem 1rem;
+    height: 92%;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    column-gap: 1rem;
+  
+    padding-top: 1rem;
+}
+
+
 .editarTuto h1, .resultados h1{
     color: #fff;
     font-size: 29px;
@@ -26,7 +38,7 @@
 #descripcionTextTutorial{
     
     font-family: 'Space Mono', monospace;
-    color: #727272;
+    
 
 }
 #descripcion p{
@@ -34,6 +46,41 @@
     font-family: 'Montserrat Hairline', arial;
     font-size: 18px;
     font-weight: 600;
+    color: white;
+}
+.cardVer{
+        max-width: 40rem;
+        width: 100%;
+        text-align: center;
+        margin: 1rem 1rem;
+        border-style: none;
+        background: #303030;
+        box-shadow: -5px -5px 10px rgb(255 255 255 / 1%), 5px 5px 15px rgb(60 60 60 / 10%);
+}
+.card-bodyVer{
+    flex: 1 1 auto;
+    padding: 1rem 1rem;
+}
+.cardP {
+    border-radius: 1rem;
+    color: white;
+    height: -1.5rem ;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    margin: 0 6px;
+    border-style: none;
+    background: #303030;
+    box-shadow: -5px -5px 10px rgb(255 255 255 / 1%), 5px 5px 15px rgb(60 60 60 / 10%);
+}
+.cardVer h1{
+    color: #000;
+    font-size: 16px;
+    margin-top: 0;
+}
+.cardVer h2{
+    font-size: 1rem;
+    letter-spacing: normal;
 }
 
 .card h1{
@@ -66,6 +113,7 @@
 #adjuntar{
     margin: 15px 0 0 5px;
     width: 100%;
+    color: white;
 }
 
 #card-flex-body input{

@@ -4,7 +4,7 @@ import { Link, useParams} from 'react-router-dom';
 import Tuto from '../data/tuto.json';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {faUser} from "@fortawesome/free-solid-svg-icons";
-import "./Profile.css";
+import "./Tutorial.css";
 
 function Tutorial({data}){
 
@@ -20,20 +20,20 @@ function Tutorial({data}){
 		<div className='principal'>
         <div className="crearTutos">
             <div class="form-group">
-				<label for="titleText" style={{fontSize:"35px"}}>{TutoData.titulo}</label>
+				<label id="titleTextTutorial" style={{fontSize:"40px"}}>{TutoData.titulo}</label>
 				{/*<input readonly="readonly" class="form-control" id="titleText" placeholder="Titulo del Tutorial"/>*/}
 			</div>
 			
-			<h1 style={{color:"#484848"}} className="mt-3 mb-3">Descripción</h1>
+			<h1 style={{color:"#fff"}} className="mt-3 mb-3">Descripción</h1>
 			<div class="form-group">
 				{/*<label for="descripcionText">Descripción</label>*/}
-				<div style={{fontSize:"18px"}} id="descripcionTextTutorial">{TutoData.descripcion}</div>
+				<div style={{fontSize:"20px"}} id="descripcionTextTutorial">{TutoData.descripcion}</div>
 			</div>
-			<br/>
-			<h1 style={{color:"#484848"}} className="mt-2 mb-3">Información del tutor</h1>
-			<div id="contenedor">
-				<div id="info">
-					<div className="icono">
+
+			<h1 style={{color:"#fff"}} className="mt-2 mb-3">Información del tutor</h1>
+			<div id="contenedorTutorial">
+				<div id="info1Tutorial">
+					<div className="iconoTutorial">
 						<FontAwesomeIcon icon={faUser} />
 					</div>
 					<div>
@@ -46,7 +46,7 @@ function Tutorial({data}){
 					</div>
 				</div>
 
-				<div className="datosPersonales">
+				<div id="infogeneralTutorial">
 					<h1>Información General</h1>
 					<h2>Nombres: Laura</h2>
 					<h2>Apellidos: Santos Balladares</h2>
@@ -57,7 +57,7 @@ function Tutorial({data}){
 			</div>
 
 			<h1 style={{color:"#fff"}} className="mb-3">Pasos</h1>
-			<div id="contenedor">
+			<div id="contenedorTutorial">
         
                 <div className="card">
 					<div className="card-body">
@@ -87,7 +87,7 @@ function Tutorial({data}){
 			</div>
 			
 			<div className="text-center mt-4">
-				<Link to="/mistutos"><button className="btn btn-primary" onClick={()=>{
+				<Link to="/mistutos"><button className="btn btn-primaryTutorial" onClick={()=>{
 
 				}}>Registrarse</button></Link>
 			</div>

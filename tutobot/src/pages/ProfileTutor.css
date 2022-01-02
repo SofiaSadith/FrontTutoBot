@@ -92,6 +92,21 @@
     margin-top: 1.4rem;
 }
 
+
+
+.btn.btn-primary{
+    margin-right: 1rem;
+    margin-top: -3rem;
+    margin-bottom: 0.5rem;
+}
+
+.btn.btn-primaryD{
+    margin-left: 1rem;
+    
+    margin-top: -3rem;
+    color: #fff;
+}
+
 #info1 h2{
     font-size: 20px;
 }
@@ -112,9 +127,14 @@
 }
 
 #infogeneral h1{
+    color: #000;
     text-align: center;
     font-size: 25px;
     margin-bottom: 1.6rem;
+}
+
+#infogeneral h2{
+    color: #000;
 }
 
 
@@ -129,7 +149,9 @@
 }
 
 .btn.btn-aTutor{
-    height: 2rem;
+    height: 2.3rem;
+    margin-left: 1rem;
+    margin-top: -0.3rem;
 }
 
 .estadisticas{
