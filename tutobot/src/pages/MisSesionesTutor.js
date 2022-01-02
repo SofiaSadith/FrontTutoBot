@@ -105,9 +105,9 @@ function MisSesionesTutor() {
                     </button>
                     <Modal state={addReu} setState={setAddReu} titulo="Agregar nueva reunión">
                         <div className="children">
-                            <input type="date" placeholder="..." />
-                            <input type="hour" placeholder="..." />
-                            <input type="text" placeholder="..." />
+                            <input type="date"/>
+                            <input type="" placeholder="Seleccionar hora"/>
+                            <input type="text" placeholder="Seleccionar Alumno"/>
                             <button onClick={() => setAddReu(false)}>Guardar</button>
                         </div>
                     </Modal>
