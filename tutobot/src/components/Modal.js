@@ -1,37 +1,29 @@
 import React from "react";
-import ReactDom from "react-dom";
+import "./Modal.css";
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import { faClose } from '@fortawesome/free-solid-svg-icons';
 
-export default class Modal extends React.Component {
-  render() {
-    const modalContainer = document.getElementById("modal-container");
-
-    return ReactDom.createPortal(
-      <div className="modal" tabIndex="-1">
-        <div className="modal-dialog">
-          <div className="modal-content">
-            <div className="modal-header">
-              <h5 className="modal-title">{this.props.title}</h5>
-              <button
-                type="button"
-                className="btn-close"
-                aria-label="Close"
-                onClick={this.props.onClose}
-              ></button>
+const Modal = ({children, state, setState, titulo}) => {
+    return(
+        <>
+            {state? (
+            <div className="overlay">
+                <div className="contenedor-modal">
+                    <div className="encabezado-modal">
+                        <h4>{titulo}</h4>
+                    </div> 
+                    <button className="botonCerrar" onClick={() => setState(false)}>
+                        <FontAwesomeIcon icon={faClose}/>
+                    </button>
+                    {children}
+                </div>
             </div>
-            <div className="modal-body">{this.props.body()}</div>
-            <div className="modal-footer">
-              <button
-                type="button"
-                className="btn btn-secondary"
-                onClick={this.props.onClose}
-              >
-                Close
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>,
-      modalContainer
-    );
-  }
+            ) : (
+                <div></div>
+            )
+            }
+        </>
+    )
 }
+
+export default Modal;
