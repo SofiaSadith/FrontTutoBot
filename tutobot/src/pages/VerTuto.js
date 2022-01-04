@@ -165,12 +165,12 @@ function VerTuto({data}) {
 				</div>
 				{paso<5? (
 						<div className="text-center">
-							<button className="btn btn-primary mt-4" onClick={actualizarPaso}>Siguiente Paso</button>
+							<button className="btn btn-primari mt-f" onClick={actualizarPaso}>Siguiente Paso</button>
 						</div>
 						) : (
 						<div className="text-center">
 							<Link to="/start">
-								<button className="btn btn-primary mt-4" onClick={actualizarPaso}>Dar Examen Final</button>
+								<button className="btn btn-primari mt-f" onClick={actualizarPaso}>Dar Examen Final</button>
 							</Link>
 						</div>
 					)

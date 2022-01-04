@@ -8,6 +8,7 @@ import {
     faStar,
 } from "@fortawesome/free-solid-svg-icons";
 import Modal from "../components/Modal";
+import Dropdown from "../components/Dropdown";
 
 function MisSesionesTutor() {
     const [addReu, setAddReu] = useState(false);
@@ -15,6 +16,7 @@ function MisSesionesTutor() {
     const [present, setPresent] = useState(false);
     const [absent, setAbsent] = useState(false);
     const stars = 4;
+    const [selected, setSelected] = useState("Alumno");
 
     return (
         <div className="perfil">
@@ -91,7 +93,7 @@ function MisSesionesTutor() {
                             <p>Comentario guardado anteriormente...</p>
                             <button onClick={() => setComment(!comment)}>Editar</button>
                             <Modal state={comment} setState={setComment} titulo="Comentarios">
-                                <div className="children">
+                                <div className="childrenC">
                                     <textarea placeholder="Escribe tu nuevo comentario..." />
                                     <button onClick={() => setComment(false)}>Guardar</button>
                                 </div>
@@ -105,9 +107,11 @@ function MisSesionesTutor() {
                     </button>
                     <Modal state={addReu} setState={setAddReu} titulo="Agregar nueva reunión">
                         <div className="children">
-                            <input type="date"/>
-                            <input type="" placeholder="Seleccionar hora"/>
-                            <input type="text" placeholder="Seleccionar Alumno"/>
+                            <input className= 'fecha' type="date"/>
+                            <input className='hora' type="time" placeholsder="Seleccionar hora"/>
+                            < div className="alumnado">
+                                <Dropdown selected={selected} setSelected={setSelected} />
+                            </div> 
                             <button onClick={() => setAddReu(false)}>Guardar</button>
                         </div>
                     </Modal>

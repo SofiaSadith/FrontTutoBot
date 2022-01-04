@@ -13,6 +13,7 @@
 }
 
 #contenedor{
+    color: white;
     display: flex;
     flex-direction: row;
     margin-top: 2rem;
@@ -29,9 +30,10 @@
     width: 30rem;
     height: 23rem;
     text-align: center;
-    background: #f2f3f7;
-    box-shadow:   -9px -9px 16px #ffffff,
-    9px 9px 16px  rgba(0, 0, 0, .25);
+    background: #303030;
+    box-shadow: -1.5px -1.5px 4px 0 rgba(99, 99, 99, 1),
+    3px 3px 3px 0 rgba(0, 0, 0, 1);
+
     padding: 30px 20px 20px 40px;
     border-radius: 20px;
     
@@ -43,9 +45,10 @@
     width: 30rem;
     height: 23rem;
     text-align: center;
-    background: #f2f3f7;
-    box-shadow:   -9px -9px 16px #ffffff,
-    9px 9px 16px  rgba(0, 0, 0, .25);
+    background: #303030;
+    box-shadow: -1.5px -1.5px 4px 0 rgba(99, 99, 99, 1),
+    3px 3px 3px 0 rgba(0, 0, 0, 1);
+
     padding: 30px 20px 20px 40px;
     border-radius: 20px;
     
@@ -88,7 +91,7 @@
     height: 30rem;
     padding: 25px 30px 30px 50px;
     border-radius: 20px; 
-    margin-bottom: 5rem;
+    margin-bottom: 0.2rem;
     display: flex;
 }
 
@@ -126,9 +129,9 @@
 
 }
 .barNotasA{
-    background: #f2f3f7;
-    box-shadow:   -9px -9px 16px #ffffff,
-    9px 9px 16px  rgba(0, 0, 0, .25);
+    background: #303030;
+    box-shadow: -1.5px -1.5px 4px 0 rgba(99, 99, 99, 1),
+    3px 3px 3px 0 rgba(0, 0, 0, 1);
     border-radius: 20px;
     width: 35rem;
     padding: 2rem;
@@ -140,9 +143,9 @@
 }
 
 .pieAprobadoA{
-    background: #f2f3f7;
-    box-shadow:   -9px -9px 16px #ffffff,
-    9px 9px 16px  rgba(0, 0, 0, .25);
+    background: #303030;
+    box-shadow: -1.5px -1.5px 4px 0 rgba(99, 99, 99, 1),
+    3px 3px 3px 0 rgba(0, 0, 0, 1);
     border-radius: 20px;
     width: 18rem;
     padding: 2rem;

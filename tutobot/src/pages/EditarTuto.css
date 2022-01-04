@@ -166,3 +166,9 @@ textarea{
     font-size: 30px;
     font-weight: 400;
 }
+.btn-primari.mt-f{
+    margin-right: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+    
+}
