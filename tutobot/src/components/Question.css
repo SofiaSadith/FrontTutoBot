@@ -1,18 +1,29 @@
+.content{
+    margin-top:-3rem;
+    margin-bottom: 3rem;
+}
 .question-card{
     min-width: 0;
     width: 60rem;
-    padding: 20px;
+    padding: 2rem;
     display: flex;
     flex-direction: column;
-    
+    letter-spacing: normal;
     word-wrap: break-word;
-    background-color: #fff;
+    background: #303030;
+    box-shadow: -1.5px -1.5px 4px 0 rgba(99, 99, 99, 1),
+    3px 3px 3px 0 rgba(0, 0, 0, 1);
     background-clip: border-box;
     border: 1px solid rgba(0,0,0,.125);
     border-radius: 10px;
     text-align: center;
+    color: #DFE0DF;
 }
-
+.mb-10{
+    padding: 4rem;
+    text-align: center;
+    margin-right: 14rem;
+}
 .question .text-danger{
     font-size: 28px;
 }

@@ -204,6 +204,7 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 1.5rem;
     margin-left:-13rem;
+    color: white;
 }
 
 .pieAprobado{
@@ -217,6 +218,7 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 1.1rem;
     margin-left: 4rem;
+    color: white;
     
 }
 
@@ -226,7 +228,7 @@
     margin-left: 1rem;
     font-size: 1.1rem;
     display: flex;
-    color: black;
+    color: #DFE0DF;
 }
 
 #descripcionText{
@@ -238,6 +240,11 @@
     overflow: hidden;
     margin-bottom: 1.8rem;
     text-align: justify;
+    background-color: rgba(43, 45, 47, 1);
+    box-shadow: inset -4px -4px 6px 0 rgba(160, 160, 160, 0.13),
+    inset 4px 4px 7px 0 rgba(0,0,0, 0.40),
+    2px 2px 2px 0 rgba(160, 160, 160, 0.13),
+    -1px -1px 2px 0 rgba(0,0,0, 0.40);
 }
 
 #titleText{

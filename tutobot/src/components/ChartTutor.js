@@ -5,6 +5,7 @@ const barData = {
     datasets: [
       {
         label: 'Nota',
+        color:"white",
         data: [12, 18, 12, 8.8, 11, 13, 10, 11.2, 10.4, 15],
         backgroundColor: "#E16B72",
         barPercentage: 0.3,
@@ -24,18 +25,18 @@ const barData = {
         min: 0,
         max: 20,
         ticks:{
-          color:"black",
+          color:"#DFE0DF",
           font:{
             size:13
           }
         },
         grid:{
-          color:"#B5BDD0"
+          color:"#DFE0DF"
         }
       },
       x:{ 
         ticks:{
-          color:"black",
+          color:"#DFE0DF",
           font:{
             size:13
 

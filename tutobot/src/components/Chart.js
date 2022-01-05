@@ -4,7 +4,8 @@ const barData = {
     labels: ['Curso 1', 'Curso 2', 'Curso 3', 'Curso 4'],
     datasets: [
       {
-        label: 'Tutoriales',
+        label: 'Tutoriales', font: {size: 24},
+      
         data: [12, 18, 12, 5],
         backgroundColor: "#E16B72",
         barPercentage: 0.3,
@@ -17,14 +18,18 @@ const barData = {
   const barOptions = {
     responsive: true,
     maintainAspectRatio: true,
-    plugins:{legend:{display:true}},
+    plugins:{legend:{display:true}, font: {size: 14}},
+    label:{
+      color:"red",
+      font: {size: 14}
+    },
     layout:{padding:{bottom:20, top:20}},
     scales: {
       y:{
         min: 0,
         max: 20,
         ticks:{
-          color:"black",
+          color:"#DFE0DF",
           font:{
             size:13
           }
@@ -35,7 +40,7 @@ const barData = {
       },
       x:{ 
         ticks:{
-          color:"black",
+          color:"#DFE0DF",
           font:{
             size:13
 

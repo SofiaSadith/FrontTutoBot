@@ -64,7 +64,7 @@ const AppRouter = () => {
 
                         <Route path='/start'>
                             {step===1 && <Start onQuizStart={quizStartHandler} />}
-                            {step===2 && <Question 
+                            {step===2 && <Question
                                 data = {quizData.data[activeQuestion]}
                                 onAnswerUpdate={setAnswers}
                                 numberOfQuestions={quizData.data.length}

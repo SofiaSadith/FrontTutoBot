@@ -74,17 +74,18 @@
     box-shadow: -5px -5px 10px rgb(255 255 255 / 1%), 5px 5px 15px rgb(60 60 60 / 10%);
 }
 .cardVer h1{
-    color: #000;
+    color: white;
     font-size: 16px;
     margin-top: 0;
 }
 .cardVer h2{
     font-size: 1rem;
     letter-spacing: normal;
+    color:#DFE0DF;
 }
 
 .card h1{
-    color: #000;
+    color: white;
     font-size: 16px;
     margin-top: 0;
 }
@@ -150,11 +151,18 @@
 }
 
 textarea{
+    color: #DFE0DF;
+    border: none !important;
     padding: 5px;
     width: 100%;
     height: 8rem;
     resize: none;
     overflow-y: scroll;
+    background-color: rgba(43, 45, 47, 1);
+    box-shadow: inset -4px -4px 6px 0 rgba(160, 160, 160, 0.13),
+    inset 4px 4px 7px 0 rgba(0,0,0, 0.40),
+    2px 2px 2px 0 rgba(160, 160, 160, 0.13),
+    -1px -1px 2px 0 rgba(0,0,0, 0.40);
 }
 
 .form-group label, .form-group h1{
@@ -170,5 +178,6 @@ textarea{
     margin-right: 1rem;
     margin-top: 2rem;
     margin-bottom: 0.5rem;
+    color: white;
     
 }
