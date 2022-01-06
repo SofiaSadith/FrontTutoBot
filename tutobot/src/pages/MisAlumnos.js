@@ -36,16 +36,16 @@ function MisAlumnos() {
 			<div id="table">
 				
 				<div className="tabla tablaAlum">
-					<table class="table table-dar table-hover table-bordered">
-						<thead>
+					<table class="table table-dar table-hover table-bordered" style={{ background:"transparent", color:"white"}}>
+						<thead style={{ background:"transparent", color:"white"}}>
 							<tr>
-								<th scope="col" className="lista">Apellidos</th>
+								<th scope="col" className="lista">Apellidos </th>
 								<th scope="col">Nombre</th>
 	
 							</tr>
 						</thead>
-						<tbody>
-							<tr>
+						<tbody style={{ background:"transparent", color:"white"}}>
+							<tr style={{ color:"white"}}>
 								<td>Perez Sánchez</td>
 								<td>Juan Luis</td>
 								

@@ -101,16 +101,39 @@
 }
 
 .children{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    column-gap: -3rem;
+    align-items: "center";
+    
+}
+.childrenC{
     display: "flex";
     flex-direction: "column";
     align-items: "center";
 }
 
+.children .fecha{
+    width: 15rem;
+    margin-right: 1rem;
+}
+
+.children .hora{
+    width: 8rem;
+}
+
+.children .alumnado{
+    width: 10rem;
+}
 .children textarea{
     margin-bottom: 10px;
 }
 
+
 .children button{
+    
+    margin-top: 1.5rem;
+    width: 7rem;
     background: #1f327c;
     padding: 5px 10px;
     border: none;

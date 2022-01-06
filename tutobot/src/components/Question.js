@@ -34,10 +34,11 @@ const Question = ({ data, onAnswerUpdate, numberOfQuestions, activeQuestion, onS
   }
 
   return(
+    <div className='principal'>
     <div className="question justify-content-center">
       <div className="question-card">
         <div className="content">
-          <h2 className="mb-1">{data.question}</h2>
+          <h6 className="mb-10" style={{marginTop:"20px", fontSize:"1.5rem", marginRight:"2rem", letterSpacing:"normal", color:"white"}}>{data.question}</h6>
           <div className="control" ref={radiosWrapper}>
             {data.choices.map((choice, i) => (
               <label className="radio has-background-light" key={i}>
@@ -50,6 +51,7 @@ const Question = ({ data, onAnswerUpdate, numberOfQuestions, activeQuestion, onS
           <button className="btn btn-secondary btn-medium btn-fullwidth" onClick={nextClickHandler}>Next</button>
         </div>
       </div>
+    </div>
     </div>
   );
 }

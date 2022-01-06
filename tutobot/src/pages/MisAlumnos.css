@@ -1,3 +1,8 @@
 #table{
+    margin-top: 1rem;
     margin-left: 12rem;
+}
+.table-hover>tbody>tr:hover>* {
+    --bs-table-accent-bg: var(--bs-table-hover-bg);
+    color: white;
 }

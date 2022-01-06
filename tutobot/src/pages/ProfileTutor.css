@@ -82,14 +82,30 @@
     width: 28rem;
     height: 24rem;
     text-align: center;
-    background-color: white;
-    box-shadow: 0px 8px 4px rgba(0, 0, 0, 0.25);
+    background: #303030;
+    box-shadow: -1.5px -1.5px 4px 0 rgba(99, 99, 99, 1),
+    3px 3px 3px 0 rgba(0, 0, 0, 1);
     padding: 30px 20px 20px 40px;
     border-radius: 20px;
     margin-left: 2rem;
     margin-right:3rem;
     margin-bottom: 7rem;
     margin-top: 1.4rem;
+}
+
+
+
+.btn.btn-primary{
+    margin-right: 1rem;
+    margin-top: -3rem;
+    
+}
+
+.btn.btn-primaryD{
+    margin-left: 1rem;
+    
+    margin-top: -3rem;
+    color: #fff;
 }
 
 #info1 h2{
@@ -104,17 +120,23 @@
     width: 25rem;
     height: 24rem;
     margin-left: 2rem;
-    background-color: white;
-    box-shadow: 0px 8px 4px rgba(0, 0, 0, 0.25);
+    background: #303030;
+    box-shadow: -1.5px -1.5px 4px 0 rgba(99, 99, 99, 1),
+    3px 3px 3px 0 rgba(0, 0, 0, 1);
     padding: 30px 20px 20px 40px;
     border-radius: 20px;
     /*z-index: -10;*/
 }
 
 #infogeneral h1{
+    color: #000;
     text-align: center;
     font-size: 25px;
     margin-bottom: 1.6rem;
+}
+
+#infogeneral h2{
+    color: #000;
 }
 
 
@@ -129,7 +151,9 @@
 }
 
 .btn.btn-aTutor{
-    height: 2rem;
+    height: 2.3rem;
+    margin-left: 1rem;
+    margin-top: -0.3rem;
 }
 
 .estadisticas{
@@ -172,8 +196,10 @@
 }
 .barNotas{
     
-    background: white;
-    box-shadow: 0px 8px 4px rgba(0, 0, 0, 0.25);
+    background: #303030;
+    box-shadow: -1.5px -1.5px 4px 0 rgba(99, 99, 99, 1),
+    3px 3px 3px 0 rgba(0, 0, 0, 1);
+    
     border-radius: 20px;
     width: 35rem;
     height: 23rem;
@@ -182,11 +208,13 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 1.5rem;
     margin-left:-13rem;
+    color: white;
 }
 
 .pieAprobado{
-    background: white;
-    box-shadow: 0px 8px 4px rgba(0, 0, 0, 0.25);
+    background: #303030;
+    box-shadow: -1.5px -1.5px 4px 0 rgba(99, 99, 99, 1),
+    3px 3px 3px 0 rgba(0, 0, 0, 1);
     border-radius: 20px;
     width: 20rem;
     height: 23rem;
@@ -195,6 +223,7 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 1.1rem;
     margin-left: 4rem;
+    color: white;
     
 }
 
@@ -204,7 +233,7 @@
     margin-left: 1rem;
     font-size: 1.1rem;
     display: flex;
-    color: black;
+    color: #DFE0DF;
 }
 
 #descripcionText{
@@ -216,6 +245,11 @@
     overflow: hidden;
     margin-bottom: 1.8rem;
     text-align: justify;
+    background-color: rgba(43, 45, 47, 1);
+    box-shadow: inset -4px -4px 6px 0 rgba(160, 160, 160, 0.13),
+    inset 4px 4px 7px 0 rgba(0,0,0, 0.40),
+    2px 2px 2px 0 rgba(160, 160, 160, 0.13),
+    -1px -1px 2px 0 rgba(0,0,0, 0.40);
 }
 
 #titleText{
@@ -223,6 +257,13 @@
     margin-left: 1rem;
     width:60%;
     height: 1.7rem;
+    background-color: rgba(43, 45, 47, 1);
+    color: #DFE0DF;
+    box-shadow: inset -4px -4px 6px 0 rgba(160, 160, 160, 0.13),
+    inset 4px 4px 7px 0 rgba(0,0,0, 0.40),
+    2px 2px 2px 0 rgba(160, 160, 160, 0.13),
+    -1px -1px 2px 0 rgba(0,0,0, 0.40);
+    border: none !important;
 
 }
 

@@ -21,13 +21,14 @@ body{
 .app_body{
     height: 90vh;
     width: 90rem;
-    background: #171717;
+    background: #191919;
     backdrop-filter: blur(18px);
     -webkit-backdrop-filter: blur(8px);
     -webkit-box-shadow: 0px 14px 19px 3px rgba(0,0,0,0.65); 
     sbox-shadow: 0px 14px 19px 3px rgba(0,0,0,0.65);
     display: flex;
     flex-direction: column;
+    
 
 }
 .home, .question, .nfp{
@@ -63,9 +64,10 @@ body{
     text-align: center;
     margin: 0 6px;
     border-style: none;
-    background: #222222;
-    box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.005),
-    5px 5px 15px rgba(60, 60, 60, 0.1);
+    background: #303030;
+    box-shadow: -2px -2px 4px 0 rgba(99, 99, 99, 1),
+    3px 3px 3px 0 rgba(0, 0, 0, 1);
+
 }
 
 .principal{

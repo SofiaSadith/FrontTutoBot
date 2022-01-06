@@ -63,7 +63,7 @@ function ProfileTutor() {
 						<button className="btn btn-primary">Guardar</button>
                         <button className="btn btn-primaryD"><FontAwesomeIcon icon={faEdit} /></button>
 					</div>
-                    
+
 				</div>
 
 				<div id='infogeneral'>
