@@ -1,3 +1,13 @@
+
+.tablaAlumno{
+    background: #303030;
+    box-shadow: -1.5px -1.5px 4px 0 rgba(99, 99, 99, 1),
+    3px 3px 3px 0 rgba(0, 0, 0, 1);
+    border-radius: 0.5rem;
+    color: white;
+    text-align: center;
+    
+}
 .reuniones{
     margin-left: 10rem;
 }
@@ -7,12 +17,7 @@
     margin: 20px;
 }
 
-.tablaAlum{
-    background: white;
-    border-radius: 20px;
-    padding: 15px;
-    text-align: center;
-}
+
 
 .fila{
     display: flex;

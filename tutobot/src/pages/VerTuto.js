@@ -45,6 +45,7 @@ function VerTuto({data}) {
 						<h1>Paso 2</h1>
 						<h2>
 							{TutoData.paso2.nombre}
+							
 						</h2>
 					</div>
 				</div>
@@ -105,11 +106,11 @@ function VerTuto({data}) {
 					<div className="cardP">
 						<div className="card-body">
                             <h1>Pregunta 1</h1>
-                            <textarea readonly="readonly">{TutoData["paso"+String(paso)].pregunta1.enunciado}</textarea>
+                            <div>{TutoData["paso"+String(paso)].pregunta1.enunciado}</div>
 							<div className="opciones text-start">
 								<label>
 									<input type="radio" name="p1" />
-									<div>{TutoData["paso"+String(paso)].pregunta1.opciones[0]}</div>
+									<div>{TutoData["paso"+String(paso)].pregunta1.opciones[0]}</div>							
 								</label>
 								<label>
 									<input type="radio" name="p1" />
@@ -125,7 +126,7 @@ function VerTuto({data}) {
 					<div className="cardP">
 						<div className="card-body">
                             <h1>Pregunta 2</h1>
-                            <textarea readonly="readonly">{TutoData["paso"+String(paso)].pregunta2.enunciado}</textarea>
+                            <div>{TutoData["paso"+String(paso)].pregunta2.enunciado}</div>
 							<div className="opciones text-start">
 								<label>
 									<input type="radio" name="p2" />
@@ -145,7 +146,7 @@ function VerTuto({data}) {
 					<div className="cardP">
 						<div className="card-body">
                             <h1>Pregunta 3</h1>
-                            <textarea readonly="readonly">{TutoData["paso"+String(paso)].pregunta3.enunciado}</textarea>
+                            <div>{TutoData["paso"+String(paso)].pregunta3.enunciado}</div>
 							<div className="opciones text-start">
 								<label>
 									<input type="radio" name="p3" />

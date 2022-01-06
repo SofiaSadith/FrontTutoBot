@@ -17,7 +17,7 @@ function MisSesionesAlumno() {
 
 			<div className="reuniones">
 				<h3>REUNIONES</h3>
-				<div className="tablaAlum">
+				<div className="tablaAlumno">
                     <div className="fila">
                         <div className="fecha">Fecha</div>
                         <div className="hora">Hora</div>

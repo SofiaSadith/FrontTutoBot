@@ -1,9 +1,9 @@
 {
     "data": [
         {
-            "question": "Es aquella integral cuya función es evaluada sobre una curva:",
-            "choices": ["Integral en recta", "Integral bajo la curva", "Integral de línea", "Integral doble"],
-            "answer": "Integral bajo la curva"
+            "question": "Si 'f' es una funcion continua sobre [a,b] entonces f es integrable sobre [a,b]",
+            "choices": ["Verdadero","Falso"],
+            "answer": "Verdadero"
           },
           {
             "question": "Indique la función que no es derivable:",
@@ -12,38 +12,38 @@
           },
           {
             "question": "Si una función es continua entonces es derivable.",
-            "choices": ["V", "F"],
-            "answer": "V"
+            "choices": ["Verdadero", "Falso"],
+            "answer": "Verdadero"
           },
           {
-            "question": "Indique la función que no es derivable:",
-            "choices": ["f(x)=3x^3", "f(x)=|x^2-4|", "f(x)=ax^2+bx+c, a,b,c!=0"],
-            "answer": "f(x)=|x^2-4|"
+            "question": "Calcular  ∫(senh^4(x))dx",
+            "choices": ["cosh(2x)/8 + 1/8 - cosh(4x)/2 + 1/4", "cosh(4x)/8 + 1/8 - cosh(2x)/2", "cosh(4x)/8 - cosh(2x)/2 + 1/4", "cosh(4x)/8 + 1/8 - cosh(2x)/2 + 1/4"],
+            "answer": "cosh(4x)/8 + 1/8 - cosh(2x)/2 + 1/4"
           },
           {
-            "question": "Si el límite de una función en un punto dado no existe entonces tampoco existe su derivada por tanto se dice que la función no es derivable en dicho punto",
-            "choices": ["V", "F"],
-            "answer": "V"
+            "question": "Analice la convergencia o divergencia de 0∫4 (dx/√(4-x))",
+            "choices": ["Convergente", "Divergente"],
+            "answer": "Convergente"
           },
           {
             "question": "Si f(x) = g(u) y u = u(x) entonces:",
-            "choices": ["f'(x) = g'(u)", "f'(x) = g'(u)", "f'(x) = g'(u)"],
-            "answer": "f'(x) = g'(u)"
+            "choices": ["f'(x) = g'(u)u'(x)", "f(x) = g'(u)", "f'(x) = g(u)"],
+            "answer": "f'(x) = g'(u)u'(x)"
           },
           {
-            "question": "Es una secuencia ordenada de nucleótidos  en la molécula de ADN  y que contiene la información necesaria para la síntesis de proteínas.",
-            "choices": ["Código genético", "Gen", "Alelo dominante", "Fenotipo"],
-            "answer": "Gen"
+            "question": "Si B(r) es el área de la región limitada por las gráficas de y = tanh(x), y = 1, x = 0, x = r (r>0) y el EJE X. Calcule lím(r->∞) (B(r))",
+            "choices": ["-Ln(2)", "Ln(1/2)", "Ln(2)", "NA"],
+            "answer": "Ln(2)"
           },
           {
-            "question": "El conjunto de cromosomas  humanos ordenados de acuerdo a su forma y tamaño, toma el nombre de:",
-            "choices": ["Fenotipo", "Cariotipo", "Alelos", "N.A"],
-            "answer": "N.A"
+            "question": "Evalúe la integral impropia para f(x) = (e^(2x)/(1+e^(3x))), para <-∞,∞>",
+            "choices": ["2π/(3√3)", "π/(√3)", "√3π/3", "N.A"],
+            "answer": "2π/(3√3)"
           },
           {
-            "question": "¿Que mecanismo de transporte utiliza la glucosa para poder entrar a la célula?",
-            "choices": ["Osmosis", "Difusión simple", "Fagocitosis", "Difusión facilitada"],
-            "answer": "Difusión facilitada"
+            "question": "Calcular ∫cos^(1/5)(x)sen^3(x)dx",
+            "choices": ["-(5/16)cos^(6/5)(x) + (5/16)cos^(16/5)(x) + C", "cos^(6/5)(x) + cos^(16/5)(x) + C", "-(5/6)cos^(6/5)(x) + (5/16)cos^(16/5)(x) + C", "NA"],
+            "answer": "-(5/6)cos^(6/5)(x) + (5/16)cos^(16/5)(x) + C"
           }
     ]
 }

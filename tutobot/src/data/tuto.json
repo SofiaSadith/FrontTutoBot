@@ -1,8 +1,8 @@
 {
     "data": [
         {
-            "titulo": "Cálculo de determinantes",
-            "descripcion": "En este tutorial, aprenderás a usar las diversas técnicas que se emplean para el cálculo de determinantes",
+            "titulo": "Cálculo de Integrales",
+            "descripcion": "En este tutorial, aprenderás a usar las diversas técnicas que se emplean para el cálculo de integrales",
             "paso1":
                {
                    "nombre": "Pensar",
@@ -15,15 +15,15 @@
                         },
                     "pregunta2": 
                         {
-                            "enunciado" : "Indique la función que no es derivable:",
-                            "opciones" : ["f(x)=3x^3", "f(x)=|x^2-4|", "f(x)=ax^2+bx+c, a,b,c!=0"],
-                            "respuesta" : "f(x)=|x^2-4|"
+                            "enunciado" : "Según Riemann, ¿Cúando una función 'f' es integrable sobre un intervalo [a,b]?",
+                            "opciones" : ["Las integrales superior e inferior de 'f' son iguales.", "'f' es acotada sobre [a,b]", "'f' es acotada sobre [a,b] y las integrales superior e inferior son iguales."],
+                            "respuesta" : "'f' es acotada sobre [a,b] y las integrales superior e inferior son iguales."
                         },
                     "pregunta3": 
                         {
-                            "enunciado": "¿Que mecanismo de transporte utiliza la glucosa para poder entrar a la célula?",
-                            "opciones": ["Osmosis", "Difusión facilitada", "Fagocitosis"],
-                            "respuesta": "Difusión facilitada"
+                            "enunciado": "La integral de una función impar 'f' sobre el intervalo [-a,a] es:",
+                            "opciones": ["0", "Es dos vecez la integral de 'f' sobre el intervalo [0,a]", "No se puede saber"],
+                            "respuesta": "0"
                         }
                 },
             "paso2":
@@ -32,21 +32,21 @@
                     "archivo": "",
                     "pregunta1":
                         {
-                            "enunciado": "A",
-                            "opciones": ["Integral en recta", "Integral bajo la curva", "Integral de línea", "Integral doble"],
-                            "respuesta": ""
+                            "enunciado": "Halle la antiderivada de la función f(x) = 2x/(1+x^4)",
+                            "opciones": ["ArcSec(x^2) + C", "ArcTan(x^2) + C", "ArcSen(x^2) + C"],
+                            "respuesta": "ArcTan(x^2) + C"
                         },
                     "pregunta2":
                         {
-                            "enunciado": "B",
-                            "opciones": ["Integral en recta", "Integral bajo la curva", "Integral de línea", "Integral doble"],
-                            "respuesta": ""
+                            "enunciado": "Calcula la integral de la función f(x) = 1/(3+3sen(x)+cos(x)) en el intervalo [0,π/2]",
+                            "opciones": ["Ln(3/4)", "Ln(4/3)", "Ln(1/4)"],
+                            "respuesta": "Ln(4/3)"
                         },
                     "pregunta3":
                         {
-                            "enunciado": "¿Que mecanismo de transporte utiliza la glucosa para poder entrar a la célula?",
-                            "opciones": ["Osmosis", "Difusión simple", "Fagocitosis", "Difusión facilitada"],
-                            "respuesta": "Difusión facilitada"
+                            "enunciado": "Si F'(x) = x^2 - cos(x), x∈R, donde F(x) es una función continua sobre el intervalo I. Halle esta función tal que F(π) = 1",
+                            "opciones": ["F(x)=(x^3)/3 - sen(x) +1 - (π^3)/3", "F(x)=(x^3)/3 - sen(x) - (π^3)/3", "F(x)=3(x^3) - sen(x) +1 - 3(π^3)"],
+                            "respuesta": "F(x)=(x^3)/3 - sen(x) +1 - (π^3)/3"
                         }
                 },
             "paso3":
@@ -55,21 +55,21 @@
                      "archivo": "",
                      "pregunta1":
                          {
-                             "enunciado": "",
-                             "opciones": "",
-                             "respuesta": ""
+                             "enunciado": "Analice la convergencia de la integral de la función f(x) = 1/(x^(2/3), en <-1,1>.",
+                             "opciones": ["Converge","Diverge","No se puede determinar"],
+                             "respuesta": "Converge"
                          },
                      "pregunta2":
                          {
-                             "enunciado": "",
-                             "opciones": "",
-                             "respuesta": ""
+                             "enunciado": "Analice la convergencia de la integral de la función f(x) = (x^2)/((8+x^3)^2), en <-∞,∞>.",
+                             "opciones": ["Converge","Diverge","No se puede determinar"],
+                             "respuesta": "Diverge"
                          },
                      "pregunta3":
                          {
-                             "enunciado": "¿Que mecanismo de transporte utiliza la glucosa para poder entrar a la célula?",
-                             "opciones": ["Osmosis", "Difusión simple", "Fagocitosis", "Difusión facilitada"],
-                             "respuesta": "Difusión facilitada"
+                             "enunciado": "Evalúe el límite B = lim (n->∞) i=0Σi=n-1 (1/√(n^2 - 1^2))",
+                             "opciones": ["π/2", "3π/2", "Diverge"],
+                             "respuesta": "π/2"
                          }
                 },
             "paso4":
@@ -78,21 +78,21 @@
                      "archivo": "",
                      "pregunta1":
                          {
-                             "enunciado": "",
-                             "opciones": "",
-                             "respuesta": ""
+                             "enunciado": "Evalúe ∫(dx/sen(2x)Ln(Tanx))",
+                             "opciones": ["(Ln(Ln(Tanx)))/2 + C","(Ln(Tanx))/2 + C","Ln(Ln(Tanx)) + C"],
+                             "respuesta": "(Ln(Ln(Tanx)))/2 + C"
                          },
                      "pregunta2":
                          {
-                             "enunciado": "",
-                             "opciones": "",
-                             "respuesta": ""
+                             "enunciado": "Una función definida en R tiene la propiedad de que en cada punto (x,y) de su gráfica, la pendiente de su recta tangente es el doble de su ordenada 'y'. Si la gráfica pasa por el punto (0,4), halle dicha función f(x).",
+                             "opciones": ["f(x) = 2e^(2x)","f(x) = 2e^x","f(x) = 4e^(2x)"],
+                             "respuesta": "f(x) = 4e^(2x)"
                          },
                      "pregunta3":
                          {
-                             "enunciado": "¿Que mecanismo de transporte utiliza la glucosa para poder entrar a la célula?",
-                             "opciones": ["Osmosis", "Difusión simple", "Fagocitosis", "Difusión facilitada"],
-                             "respuesta": "Difusión facilitada"
+                             "enunciado": "Calcular  ∫(senh^4(x))dx",
+                             "opciones": ["cosh(4x)/8 + 1/8 - cosh(2x)/2", "cosh(4x)/8 - cosh(2x)/2 + 1/4", "cosh(4x)/8 + 1/8 - cosh(2x)/2 + 1/4"],
+                             "respuesta": "cosh(4x)/8 + 1/8 - cosh(2x)/2 + 1/4"
                          }
                 },
             "paso5":
@@ -101,30 +101,30 @@
                      "archivo": "",
                      "pregunta1":
                          {
-                             "enunciado": "",
-                             "opciones": "",
-                             "respuesta": ""
+                             "enunciado": "Si n es entero positivo, obtener la fómula de reducción para In = ∫cos^n(x)dx",
+                             "opciones": ["(1/n)cos^(n)(x)sen(x) + n*∫cos^(n-1)(x)dx","(1/n)cos^(n-1)(x)sen(x) + ((n-1)/n)*∫cos^(n-1)(x)dx","(1/n)cos^(n-1)(x)sen(x) + ((n-1)/n)*∫cos^(n)(x)dx"],
+                             "respuesta": "(1/n)cos^(n-1)(x)sen(x) + ((n-1)/n)*∫cos^(n-1)(x)dx"
                          },
                      "pregunta2":
                          {
-                             "enunciado": "",
-                             "opciones": "",
-                             "respuesta": ""
+                             "enunciado": "Evaluar ∫sen(x/2)cos(3x/2)dx",
+                             "opciones": ["cos(x)/2 - cos(2x)/4","cos(2x)/4 - cos(x)/2","cos(x) - 2cos(2x)"],
+                             "respuesta": "cos(x)/2 - cos(2x)/4"
                          },
                      "pregunta3":
                          {
-                             "enunciado": "¿Que mecanismo de transporte utiliza la glucosa para poder entrar a la célula?",
-                             "opciones": ["Osmosis", "Difusión simple", "Fagocitosis", "Difusión facilitada"],
-                             "respuesta": "Difusión facilitada"
+                             "enunciado": "Si 'f' es continua sobre un intervalo J. Si g es diferenciable sobre J y si G'(x) = f(x) para x∈J, entonces para cada a,b∈J",
+                             "opciones": ["a∫b f(x)dx = a∫b G'(x)dx = G(b) - G(a)", "a∫b f(x)dx = a∫b G'(x)dx = f'(b) - f'(a)", "Ninguna de las anteriores"],
+                             "respuesta": "a∫b f(x)dx = a∫b G'(x)dx = G(b) - G(a)"
                          }
                 },
             "examen":
                 {
                     "pregunta1":
                         {
-                            "enunciado": "",
-                            "opciones": "",
-                            "respuesta": ""
+                            "enunciado": "Si 'f' es una funcion continua sobre [a,b] entonces f es integrable sobre [a,b]",
+                            "opciones": ["Verdadero","Falso"],
+                            "respuesta": "Verdadero"
                         },
                     "pregunta2":
                         {
