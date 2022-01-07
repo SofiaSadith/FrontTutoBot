@@ -25,7 +25,7 @@ export default function IniciarSesion() {
         const plini = {
             email:em,
             password:pw,
-            kind:1,
+            // kind:1,
         }
         postData(urlBd + '/user/signin', plini)
             .then(data => {

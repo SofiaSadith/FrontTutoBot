@@ -23,6 +23,8 @@ import {
 } from "../components/Chart.js";
 import { Bar, Pie } from "react-chartjs-2";
 
+
+
 function ProfileAlumno() {
   return (
     <div className="perfil">

@@ -1,0 +1,89 @@
+.filtro{
+    display: flex;
+    width: 73%;
+    height: 4rem;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    margin-left: 20rem;
+    margin-right: -10rem;
+    top: 29rem;
+    background: #303030;
+    box-shadow: -1.5px -1.5px 4px 0 rgba(99, 99, 99, 1),
+    3px 3px 3px 0 rgba(0, 0, 0, 1);
+    border: 0.5px solid rgba(0, 0, 0, 0.3);
+    box-sizing: border-box;
+    border-radius: 7px;
+}
+.buscador {
+
+width: 15rem;
+height: 2.1rem;
+background: #ffffff;
+border-radius: 3px;
+/* Inside Auto Layout*/
+padding: 1rem 1rem;
+flex-grow: 0;
+margin-top:0.9rem;
+margin-bottom: 0.9rem;
+margin-left:1rem;
+margin-right: 0.5rem;
+
+border-radius: 1rem;
+}
+
+#selBrand {
+
+width: 12vw;
+height: 2.1rem;
+
+background: #ffffff;
+border-radius: 1rem;
+/*Inside Auto Layout*/
+flex: none;
+margin:0.9rem 1rem;
+
+
+}
+
+
+#btnSr {
+
+width: 6vw;
+height: 2.1rem;
+background: #ffffff;
+border-radius: 1rem;
+margin-top: 0.9rem;
+/*Inside Auto Layout*/
+flex: none;
+order: 0;
+flex-grow: 0;
+margin-left: 1rem;
+}
+#selF{
+
+width: 12vw;
+height: 2.1rem;
+background: #ffffff;
+border-radius: 1rem;
+/*Inside Auto Layout*/
+flex: none;
+order: 0;
+flex-grow: 0;
+margin:0.9rem 1rem;
+}
+#selA{
+
+width: 12vw;
+height: 2.1rem;
+background: #ffffff;
+border-radius: 1rem;
+/*Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin:0.9rem 1rem;
+}
+.search {
+margin-left: -5rem;
+margin-right: -5rem;
+}

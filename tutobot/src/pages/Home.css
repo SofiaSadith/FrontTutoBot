@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100&family=Montserrat:wght@100&family=Roboto:wght@100&family=Space+Mono&family=Sunflower:wght@300&family=Vujahday+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rock+3D&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+.confe{
+    display: flex;
+    overflow: none;
+}
+.picture{
+    margin-left: 16.5rem;
+    width: 2rem;
+    height: 2rem;
+    margin-top: -1rem;
+   
+}
+img.inic{
+    width: 100%;
+    height: 100%;
+    margin-left: 20rem;
+
+}
+h1.palabra1{
+    color: white;
+    margin-left: 6rem;
+    margin-right: 2rem;
+    margin-top: 14rem;
+    font-family: 'Bungee Shade', cursive;
+    text-align: center;
+    font-size: 3rem;
+}
+h2.palabra2{
+    margin-top: 3rem;
+    margin-left: 13rem;
+    letter-spacing: normal;
+    font-family: 'Vujahday Script', cursive;
+    font-size: 3rem;
+}
+.home{
+    display: block;
+}

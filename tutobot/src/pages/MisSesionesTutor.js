@@ -18,6 +18,37 @@ function MisSesionesTutor() {
     const stars = 4;
     const [selected, setSelected] = useState("Alumno");
 
+    async function postData(url = "", data) {
+        console.log(JSON.stringify(data));
+        const response = await fetch(url, {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+            },
+            body: JSON.stringify(data),
+        });
+        return await response.json();
+    }
+
+    function Comentar() {
+        var urlBd = "http://localhost:5000"
+        const id = 1;//document.getElementById("emailinp").value;
+        const c = document.getElementById("com").value;
+        let plini = {
+            id: id, comentario: c
+        }
+        console.log(typeof(em));
+        postData(urlBd + '/sesiones/comentar', plini)
+            .then(data => {
+                if (data.status === "SUCCESS") {
+                    alert("Comentario guardado");
+                }
+                else {
+                    alert(data.message);
+                }
+            }).catch(err => console.log(err));
+    }
+
     return (
         <div className="perfil">
             {/* <h1> ProfilePage: {username}</h1> */}
@@ -94,8 +125,8 @@ function MisSesionesTutor() {
                             <button onClick={() => setComment(!comment)}>Editar</button>
                             <Modal state={comment} setState={setComment} titulo="Comentarios">
                                 <div className="childrenC">
-                                    <textarea placeholder="Escribe tu nuevo comentario..." />
-                                    <button onClick={() => setComment(false)}>Guardar</button>
+                                    <textarea id="com" placeholder="Escribe tu nuevo comentario..." />
+                                    <button onClick={() => {Comentar();setComment(false);}}>Guardar</button>
                                 </div>
                             </Modal>
                         </div>
@@ -108,7 +139,7 @@ function MisSesionesTutor() {
                     <Modal state={addReu} setState={setAddReu} titulo="Agregar nueva reunión">
                         <div className="children">
                             <input className= 'fecha' type="date"/>
-                            <input className='hora' type="time" placeholsder="Seleccionar hora"/>
+                            <input className='hora' type="time" placeholder="Seleccionar hora"/>
                             < div className="alumnado">
                                 <Dropdown selected={selected} setSelected={setSelected} />
                             </div> 

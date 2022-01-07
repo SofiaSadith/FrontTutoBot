@@ -14,10 +14,12 @@
 .contenedor-modal{
     width: 45rem;
     min-height: 150px;
-    background: #fff;
+    background: #303030;
+    box-shadow: -1.5px -1.5px 4px 0 rgba(99, 99, 99, 1),
+    3px 3px 3px 0 rgba(0, 0, 0, 1);
     position: relative;
     border-radius: 5px;
-    box-shadow: rgba(100,100,111,0.2) 0px 7px 29px 0px;
+   
     padding: 20px;
     margin-left: 19%;
 }
@@ -30,7 +32,7 @@
     border-bottom: 1px solid #E8E8E8;
     font-weight: 500;
     font-size: 15px;
-    color: #1f327c;
+    color: white;
 }
 
 .botonCerrar{

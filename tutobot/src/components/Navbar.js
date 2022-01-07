@@ -7,17 +7,27 @@ import { Sidebar } from './Sidebar';
 import './Navbar.css';
 import { IconContext } from 'react-icons';
 import Title from './Title';
-
+import {knd} from '../pages/Registro';
 import { useState, useEffect } from 'react';
 
 //var userCurrent = localStorage.getItem("user") == "" ? "" : JSON.parse(localStorage.getItem("user"));
-
+export var kind="";
 //export const kind = 'tutor';
-export const kind = 'alumno';
+//export const kind = 'alumno';
 
 function Navbar(props) {
+  
+  var kb = localStorage.getItem("kbool");
+  console.log("kb:"+kb);
+  console.log(typeof(kb));
+  const [sesion, setSesion] = useState(props.session);
 
-  const [sesion, setSesion] = useState(props.sesion);
+  if(kb==="false"){
+    kind = 'alumno';
+  }else{
+    kind="tutor";
+  }
+  
 
   useEffect(() => {
     props.onCollapse(sesion);
